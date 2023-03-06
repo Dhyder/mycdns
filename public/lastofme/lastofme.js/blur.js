@@ -104,7 +104,7 @@
         element.classList.add("active");
         var feed = "<span class='blure text-black'>Home</span>"
         document.getElementById('feedback').innerHTML = feed;
-        document.getElementById('response').style.display = none;
+        document.getElementById('response').style.display = "none";
       } else {
         console.log('This is not the homepage');
       }
